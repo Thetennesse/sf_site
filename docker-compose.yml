@@ -10,7 +10,7 @@ services:
       args:
         - CDASH_DB_HOST=mysql
     environment:
-      CDASH_ROOT_ADMIN_EMAIL: 'p.tulkin'
+      CDASH_ROOT_ADMIN_EMAIL: 'f.tulkin'
       CDASH_ROOT_ADMIN_PASS: 'newpassispass'
       CDASH_CONFIG: |
           $$CDASH_APP_URL='http://10.10.1.165';
